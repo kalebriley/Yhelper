@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="6Fl-ev-7YO">
-                        <rect key="frame" x="16" y="0.0" width="304" height="85"/>
+                        <rect key="frame" x="16" y="16" width="304" height="85"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="85" id="0H1-cw-b3I"/>
@@ -30,31 +30,31 @@
                         </collectionViewFlowLayout>
                     </collectionView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaraunt name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1eQ-Yv-4KR">
-                        <rect key="frame" x="16" y="93" width="126.5" height="20"/>
+                        <rect key="frame" x="16" y="109" width="126.5" height="20"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OPEN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjM-RH-1HU">
-                        <rect key="frame" x="274" y="93" width="38" height="17"/>
+                        <rect key="frame" x="266" y="109" width="38" height="17"/>
                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.1mi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OnF-a1-Ug6">
-                        <rect key="frame" x="283" y="114" width="29" height="17"/>
+                        <rect key="frame" x="275" y="130" width="29" height="17"/>
                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="123 Some st." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4A-V7-hAs">
-                        <rect key="frame" x="16" y="117" width="81.5" height="17"/>
+                        <rect key="frame" x="16" y="133" width="81.5" height="17"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="categories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpN-PI-B3v">
-                        <rect key="frame" x="16" y="138" width="54" height="14.5"/>
+                        <rect key="frame" x="16" y="154" width="54" height="14.5"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -77,10 +77,10 @@
                     <constraint firstItem="gMq-nZ-jNi" firstAttribute="trailing" secondItem="OnF-a1-Ug6" secondAttribute="trailing" id="KLf-G3-EDy"/>
                     <constraint firstItem="1eQ-Yv-4KR" firstAttribute="top" secondItem="6Fl-ev-7YO" secondAttribute="bottom" constant="8" id="N1q-14-fxh"/>
                     <constraint firstItem="NjM-RH-1HU" firstAttribute="top" secondItem="6Fl-ev-7YO" secondAttribute="bottom" constant="8" id="NbH-OZ-bsA"/>
-                    <constraint firstItem="6Fl-ev-7YO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TOy-cc-G9t"/>
+                    <constraint firstItem="6Fl-ev-7YO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="TOy-cc-G9t"/>
                     <constraint firstItem="s4A-V7-hAs" firstAttribute="leading" secondItem="1eQ-Yv-4KR" secondAttribute="leading" id="Twf-ee-Wf3"/>
                     <constraint firstItem="gpN-PI-B3v" firstAttribute="top" secondItem="s4A-V7-hAs" secondAttribute="bottom" constant="4" id="Vd9-ep-iwK"/>
-                    <constraint firstAttribute="trailing" secondItem="NjM-RH-1HU" secondAttribute="trailing" constant="8" id="Zno-mC-7q8"/>
+                    <constraint firstAttribute="trailing" secondItem="NjM-RH-1HU" secondAttribute="trailing" constant="16" id="Zno-mC-7q8"/>
                     <constraint firstItem="OnF-a1-Ug6" firstAttribute="trailing" secondItem="NjM-RH-1HU" secondAttribute="trailing" id="eKQ-4f-ONY"/>
                     <constraint firstItem="gMq-nZ-jNi" firstAttribute="top" secondItem="OnF-a1-Ug6" secondAttribute="bottom" constant="16" id="gvD-3i-Vik"/>
                     <constraint firstItem="6Fl-ev-7YO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="nb7-n2-dyr"/>

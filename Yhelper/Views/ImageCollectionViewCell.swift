@@ -15,9 +15,10 @@ class ImageCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        containerView.layer.cornerRadius = 5
-        imageView.layer.masksToBounds = true
-        
+        self.contentView.layer.cornerRadius = 8.0
+        self.contentView.layer.borderWidth = 1.0
+        self.contentView.layer.borderColor = UIColor.clear.cgColor
+        self.layer.cornerRadius = 20.0
     }
     
     func loadImage(imageURL: String?) {

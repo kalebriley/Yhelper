@@ -32,9 +32,10 @@
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GVL-SL-aEj">
                                         <rect key="frame" x="0.0" y="76" width="414" height="374"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search Results 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcW-QH-Qyd">
-                                        <rect key="frame" x="8" y="47" width="144" height="21"/>
+                                        <rect key="frame" x="16" y="47" width="144" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="144" id="uU3-gF-KlM"/>
                                         </constraints>
@@ -45,7 +46,7 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="qcW-QH-Qyd" firstAttribute="leading" secondItem="mwd-i4-mZj" secondAttribute="leading" constant="8" id="1BZ-Eo-iO2"/>
+                                    <constraint firstItem="qcW-QH-Qyd" firstAttribute="leading" secondItem="mwd-i4-mZj" secondAttribute="leading" constant="16" id="1BZ-Eo-iO2"/>
                                     <constraint firstItem="GVL-SL-aEj" firstAttribute="leading" secondItem="mwd-i4-mZj" secondAttribute="leading" id="Obf-TK-sZf"/>
                                     <constraint firstItem="qcW-QH-Qyd" firstAttribute="top" secondItem="PRK-er-4Yj" secondAttribute="bottom" constant="8" id="Qf8-tM-FjJ"/>
                                     <constraint firstItem="GVL-SL-aEj" firstAttribute="top" secondItem="qcW-QH-Qyd" secondAttribute="bottom" constant="8" id="aAI-Vs-M4U"/>
