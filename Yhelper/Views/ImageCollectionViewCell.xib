@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCollectionViewCell" customModule="Yhelper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iHU-IW-Gp8">
+                        <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AD6-aG-IyF">
+                                <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="AD6-aG-IyF" firstAttribute="leading" secondItem="iHU-IW-Gp8" secondAttribute="leading" id="2d9-nC-D1g"/>
+                            <constraint firstAttribute="bottom" secondItem="AD6-aG-IyF" secondAttribute="bottom" id="4xU-Zl-uGv"/>
+                            <constraint firstItem="AD6-aG-IyF" firstAttribute="top" secondItem="iHU-IW-Gp8" secondAttribute="top" id="NRa-1b-Bef"/>
+                            <constraint firstAttribute="trailing" secondItem="AD6-aG-IyF" secondAttribute="trailing" id="bUd-Co-98c"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iHU-IW-Gp8" secondAttribute="trailing" id="UGg-8b-1Bb"/>
+                <constraint firstItem="iHU-IW-Gp8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="UMH-x9-k0n"/>
+                <constraint firstAttribute="bottom" secondItem="iHU-IW-Gp8" secondAttribute="bottom" id="huH-re-vVl"/>
+                <constraint firstItem="iHU-IW-Gp8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wE0-4h-bw0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <connections>
+                <outlet property="containerView" destination="iHU-IW-Gp8" id="AiH-iU-ggk"/>
+                <outlet property="imageView" destination="AD6-aG-IyF" id="wIu-CY-o51"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="98.772321428571431"/>
+        </collectionViewCell>
+    </objects>
+</document>
